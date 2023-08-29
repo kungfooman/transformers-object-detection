@@ -1,0 +1,10 @@
+<body></body>
+<script src="./importmap.js"></script>
+<script type="module">
+  import * as test from './test.mjs';
+  Object.assign(window, { ...test });
+</script>
+<img id="test-image" src="https://huggingface.co/datasets/Xenova/transformers.js-docs/resolve/main/cats.jpg">
+<button onclick='buttonRenderObjects()'>
+    Render Objects
+</button>

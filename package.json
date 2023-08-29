@@ -1,0 +1,14 @@
+{
+  "name": "object-detection",
+  "version": "1.0.0",
+  "description": "",
+  "main": "importmap.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@xenova/transformers": "^2.5.4"
+  }
+}
